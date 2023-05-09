@@ -23,6 +23,7 @@ public class QuestaoMatrizes {
                 }
             }
         }
+        System.out.println(" ");
         for(int line = 0; line <= 3; line++) {
             for (int column = 0; column <= 3; column++) {
                 System.out.print("["+matrizes[line][column]+"] ");
@@ -47,7 +48,7 @@ public class QuestaoMatrizes {
                 }
             }
         }
-
+        System.out.println(" ");
         String positionAbaixo = "";
         int valueAbaixo = Integer.MAX_VALUE;
         for(int i = 0; i < matrizes.length; i++) {
