@@ -2,7 +2,7 @@ package br.com.aldenor.desafios;
 
 import java.util.Scanner;
 
-public class Main {
+public class QuestaoNotas {
 
     public static void main(String[] args) {
         Double[] vector = new Double[3];
